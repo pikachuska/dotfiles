@@ -1,15 +1,20 @@
-# dotfiles
- [Arch] (Hyprland) My dotfiles
+# 🧠 dotfiles  
+**[Arch Linux + Hyprland]** — dotfiles
 
-![изображение](https://github.com/user-attachments/assets/b75fbb97-696a-40e3-b29e-1582bd8ef419)
+![desktop preview](https://github.com/user-attachments/assets/b75fbb97-696a-40e3-b29e-1582bd8ef419)
 
-On screen:
-- Cava
-- Tty-clock
-- Neofetch
+## 📺 На скрине:
+- 🎵 `Cava` — аудио визуализация
+- 🕒 `Tty-clock` — терминальные часы
+- 💻 `Neofetch` — инфо
 
-Term:
-- Wezterm
+## 🧩 Используемые программы:
+- 📦 Терминал: [`Wezterm`](https://wezfurlong.org/wezterm/)
+- 🎧 Музыка: `Soundcloud` клиент
+- 🧼 DE/WM: [`Hyprland`](https://github.com/hyprwm/Hyprland)
+- 🎨 Тема: `Catppuccin Mocha`
 
-Music player:
-- Soundcloud
+## 🛠️ Как использовать:
+```bash
+git clone https://github.com/pikachuska/dotfiles ~/.dotfiles
+cd ~/.dotfiles
