@@ -1,0 +1,123 @@
+{
+    "layer": "top",
+    "spacing": 0,
+    "height": 0,
+
+    "margin-top": 8,
+    "margin-right": 8,
+    "margin-bottom": 0,
+    "margin-left": 8,
+
+    "modules-left": [
+        "custom/launcher",
+        "clock",
+        "hyprland/workspaces"
+    ],
+
+    "modules-center": [
+        "custom/music"
+    ],
+
+    "modules-right": [
+        "tray",
+		"hyprland/language",
+        "cpu_text",
+        "cpu",
+        "memory",
+        "battery",
+        "pulseaudio",
+        "network",
+		"custom/control"
+    ],
+
+    "custom/launcher":{
+        "format": " ",
+        "on-click": "wofi",
+        "on-click-right": "killall wofi",
+        "tooltip": false
+    },
+
+    "hyprland/workspaces": {
+        "disable-scroll": true,
+        "all-outputs": true,
+        "tooltip": false
+    },
+
+    "tray": {
+        "spacing": 10,
+        "tooltip": false
+    },
+
+    "custom/music": {
+        "format": "{}",
+        "escape": true,
+        "interval": 1,
+        "tooltip": true,
+        "exec": "playerctl metadata --format='{{ title }}'",
+        "on-click": "playerctl play-pause",
+        "max-length": 50
+    },
+
+    "clock": {
+        "format": "{:%H:%M}",
+        "tooltip-format": "{:%d.%m.%Y}",
+        "tooltip": true
+    },
+
+    "cpu": {
+        "format": "CPU {usage}%",
+        "interval": 2,
+
+        "states": {
+            "critical": 90
+        }
+    },
+
+    "memory": {
+        "format": "MEM {percentage}%",
+        "interval": 2,
+
+        "states": {
+            "critical": 80
+        }
+    },
+
+    "battery": {
+        "format": "BAT {capacity}%",
+        "interval": 5,
+        "states": {
+            "warning": 20,
+            "critical": 10
+        },
+        "tooltip": false
+    },
+
+    "network": {
+        "format-wifi" : "{essid} {signalStrength}%",
+        "format-ethernet": "enth {bandwidthDownBits}",
+        "format-disconnected" : "no network",
+        "interval": 5,
+        "tooltip": false
+    },
+
+    "pulseaudio": {
+        "scroll-step": 1,
+        "max-volume": 150,
+        "format": "VOL {volume}%",
+        "format-bluetooth": "BLT {volume}%",
+        "nospacing": 1,
+        "on-click": "pwvucontrol",
+        "tooltip": false
+    },
+
+	"hyprland/language": {
+		"format": "{short}"
+	},
+
+	"custom/control":{
+        "format": "⏼",
+        "on-click": "systemctl poweroff",
+        "on-click-right": "systemctl reboot",
+        "tooltip": false
+    }
+}
