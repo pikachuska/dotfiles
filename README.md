@@ -1,7 +1,10 @@
-# 🧠 dotfiles  
+![изображение](https://github.com/user-attachments/assets/c3972919-ca41-42b8-8351-3f351e0bebb9)# 🧠 dotfiles  
 **[Arch Linux + Hyprland]** — dotfiles
 
 ![desktop preview](https://github.com/user-attachments/assets/b75fbb97-696a-40e3-b29e-1582bd8ef419)
+
+Расширения firefox:
+![изображение](https://github.com/user-attachments/assets/df96bd30-f68b-43cc-8eb7-8ba91abba2eb)
 
 ## 📺 На скрине:
 - 🎵 `Cava` — аудио визуализация
