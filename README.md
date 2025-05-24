@@ -16,9 +16,9 @@
 
 ## 🧩 Используемые программы:
 - 📦 Терминал: [`Wezterm`](https://wezfurlong.org/wezterm/)
-- 🎧 Музыка: `Soundcloud` клиент
+- 🎧 Музыка: [`Soundcloud`](https://aur.archlinux.org/packages/soundcloud-rpc-bin) клиент
 - 🧼 DE/WM: [`Hyprland`](https://github.com/hyprwm/Hyprland)
-- 🎨 Тема: `Catppuccin Mocha`
+- 🎨 Тема: [`Catppuccin Mocha`](https://catppuccin.com/)
 
 ## 🛠️ Как использовать:
 ```bash
