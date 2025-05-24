@@ -24,3 +24,35 @@
 ```bash
 git clone https://github.com/pikachuska/dotfiles ~/.dotfiles
 cd ~/.dotfiles
+```
+
+
+
+## 🖥️ Как поставить на свой пк:
+```
+# pacman
+
+sudo pacman -Syu waybarsudo pacman -S hyprland waybar kitty rofi dunst thunar fish neofetch \
+nvim mpv vlc htop btop bottom cava dolphin pamac pavucontrol easyeffects \
+qt5ct qt6ct qt6-base qt5-base polkit-gnome xdg-desktop-portal-hyprland \
+xdg-utils wl-clipboard cliphist grim slurp swaylock swayidle \
+libreoffice-qt libreoffice-fresh file-roller galculator \
+qemu virt-manager obs-studio wireplumber yay
+
+
+# aur (yay)
+
+yay -S vesktop discord_arch_electron spotify spicetify-cli heroic-games-launcher-bin \
+figma-linux obsidian appimagelauncher emoji-picker deepin-gtk-theme \
+blender arduino ide-electron peazip-bin postman-bin \
+youtube-music spicetify-marketplace visual-studio-code-bin \
+itch deskreen electron mailspring qttheme qt6gtk2 \
+rustdesk-bin simple-update-notifier
+
+# configs
+
+git clone https://github.com/pikachuska/dotfiles /tmp/dotfiles && cp -r /tmp/dotfiles/.config/* ~/.config/ && rm -rf /tmp/dotfiles
+
+
+
+```
