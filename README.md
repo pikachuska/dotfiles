@@ -1,4 +1,4 @@
-![изображение](https://github.com/user-attachments/assets/c3972919-ca41-42b8-8351-3f351e0bebb9)# 🧠 dotfiles  
+# 🧠 dotfiles  
 **[Arch Linux + Hyprland]** — dotfiles
 
 ![desktop preview](https://github.com/user-attachments/assets/b75fbb97-696a-40e3-b29e-1582bd8ef419)
