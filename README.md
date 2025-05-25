@@ -47,7 +47,7 @@ cd ~/.dotfiles
    ```
    archinstall
    ```
-   [Дальше делайте под вас, гайд (в profile выберите hyprland)](https://youtu.be/x2euFpcv7hw?si=QheQG1ymVKtUUnc4&t=441)
+   Дальше делайте под вас, [гайд](https://youtu.be/x2euFpcv7hw?si=QheQG1ymVKtUUnc4&t=441) (в profile выберите hyprland)
 
 3. После установки нажмите win + q, и в терминале введите данные команнды:
 
