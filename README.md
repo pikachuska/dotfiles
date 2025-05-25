@@ -61,7 +61,7 @@ sudo pacman -Syu waybarsudo pacman -S hyprland waybar kitty rofi dunst thunar fi
 nvim mpv vlc htop btop bottom cava dolphin pamac pavucontrol easyeffects \
 qt5ct qt6ct qt6-base qt5-base polkit-gnome xdg-desktop-portal-hyprland \
 xdg-utils wl-clipboard cliphist grim slurp swaylock swayidle \
-libreoffice-qt libreoffice-fresh file-roller galculator \
+libreoffice-qt libreoffice-fresh file-roller galculator firefox \
 qemu virt-manager obs-studio wireplumber yay
 
 
