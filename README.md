@@ -30,9 +30,6 @@ cd ~/.dotfiles
 
 ## 🖥️ Как поставить на свой пк:
 
-- [С archinstall](#Archinstall)
-- [Уже установленый Arch с Hyprland](#Commands)
-
 
 ## Archinstall:
 
