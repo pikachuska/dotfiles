@@ -1,0 +1,31 @@
+#!/bin/bash
+
+run_on() {
+    easyeffects  &
+    notify-send "EasyEffects" "Включено"
+}
+
+run_off() {
+    pkill easyeffects
+    notify-send "EasyEffects" "Выключено"
+}
+
+case "$1" in
+    on)
+        run_on
+        ;;
+    off)
+        run_off
+        ;;
+    "")
+        choice=$(printf "Включить Bass\nВыключить Bass" | wofi --dmenu --prompt "Bass Menu")
+        case "$choice" in
+            "Включить Bass") run_on ;;
+            "Выключить Bass") run_off ;;
+            *) exit 0 ;;
+        esac
+        ;;
+    *)
+        echo "Юзай: bass [on|off] или просто bass"
+        ;;
+esac

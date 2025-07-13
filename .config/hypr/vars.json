@@ -1,0 +1,13 @@
+{
+  "blur": "15",
+  "term": "wezterm",
+  "browser": "firefox",
+  "colora": "cba6f7",
+  "colorb": "b4befe",
+  "theme": "Adwaita-dark",
+  "opacity": "0.8",
+  "contrast": "2",
+  "brightness": "1",
+  "radiuss": "10",
+  "wallpaper": "/home/user/wallpaper/Arch-Base.png"
+}
