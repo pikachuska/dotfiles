@@ -10,7 +10,7 @@
 
 ## 📺 На скрине:
 - 🕒 `Tty-clock` — терминальные часы
-- 💻 `Fastfetch` — инфо
+- 💻 `Fastfetch` — инфо (взят с HyDE)
 
 ## 🧩 Используемые программы:
 - 📦 Терминал: [`Wezterm`](https://wezfurlong.org/wezterm/)
