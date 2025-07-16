@@ -1,8 +1,8 @@
 # 🧠 dotfiles  
 **[Arch Linux + Hyprland]** — dotfiles
 
-[![desktop preview](https://github.com/user-attachments/assets/1089956e-8584-41f8-9468-25cb97e8e8ca)](https://youtu.be/h1PToEBmTp8?si=cxRxOS-Yjfr4piW1)
-[![desktop preview](https://github.com/user-attachments/assets/4bf650a7-11f0-4dc3-9271-27be57949eca)](https://youtu.be/h1PToEBmTp8?si=cxRxOS-Yjfr4piW1)
+[![desktop preview](https://github.com/user-attachments/assets/1089956e-8584-41f8-9468-25cb97e8e8ca)](https://youtu.be/6vG04z1UuuY)
+[![desktop preview](https://github.com/user-attachments/assets/4bf650a7-11f0-4dc3-9271-27be57949eca)](https://youtu.be/6vG04z1UuuY)
 
 
 
