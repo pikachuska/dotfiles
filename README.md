@@ -54,14 +54,18 @@ cd ~/.dotfiles
 ## Commands:
 
 ```
-# pacman
+# yay (installing)
 
-sudo pacman -Syu yay
+pacman -S --needed base-devel git
+cd ~/Downloads
+git clone https://aur.archlinux.org/yay.git
+cd yay
+makepkg -si
 
 
 # aur (yay)
 
-yay -S emoji-picker dunst mpv Thunar waybar wezterm wofi
+yay -S emoji-picker dunst mpv Thunar waybar wezterm wofi swww ttf-jetbrains-mono-nerd
 
 # configs
 
